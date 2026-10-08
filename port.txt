@@ -1,0 +1,1766 @@
+Exercise 1
+> I created a GitHub repository named student-project, added a README and index.html, and committed the files.
+Exercise 2
+> I added style.css and an image to the repository and committed them.
+Exercise 3
+> I cloned the repository using GitHub Desktop, modified index.html, committed the change, and pushed it to GitHub.
+Exercise 4
+> I changed index.html through GitHub.com and used Fetch and Pull in GitHub Desktop to synchronize the local repository.
+Exercise 5
+> I created a feature branch from main, modified the HTML file, and compared the feature branch with main.
+Exercise 6
+> I created a feature branch, added a Skills section, committed it, created a Pull Request, and merged it into main.
+Exercise 7
+> I created .gitignore and configured it to ignore temporary files and unnecessary folders.
+Exercise 8
+> I made two separate commits, viewed the commit history, identified an unwanted commit, and reverted it.
+Exercise 9
+> I created an issue called Fix Homepage Layout, added labels, created Version 1.0 milestone, assigned the issue, and closed it after completion.
+Exercise 10
+> I created a feature branch, made changes, pushed it to GitHub, created a Pull Request, reviewed the changes, added a comment, approved it, and merged it into main
+Exercise 11
+> I created two branches from the same version, modified the same section differently, merged the branches, encountered a merge conflict, resolved the conflict manually, and committed the resolved version.
+
+
+🔥 EXERCISE 1
+
+Create GitHub repository student-project
+
+Requirement:
+
+> Create a GitHub repository named student-project. Add a README file and create an index.html file containing a simple student portfolio page. Commit the files.
+
+
+
+
+---
+
+STEP 1 — Create repository
+
+In Firefox, go to GitHub.
+
+At the top-right find:
+
++
+
+Click it.
+
+Choose:
+
+New repository
+
+
+---
+
+STEP 2 — Repository name
+
+You will see:
+
+Repository name
+
+Enter:
+
+student-project
+
+
+---
+
+STEP 3 — Description
+
+Enter:
+
+Student Portfolio Project
+
+
+---
+
+STEP 4 — Public or Private
+
+For a college practical, choose:
+
+Public
+
+Unless your teacher specifically asks for Private.
+
+
+---
+
+STEP 5 — README
+
+Find:
+
+☐ Add a README file
+
+Tick it.
+
+You should now have:
+
+☑ Add a README file
+
+GitHub's repository creation process includes this option. 
+
+
+---
+
+STEP 6 — Create
+
+Click:
+
+Create repository
+
+🎉 Your repository is created.
+
+You should see something similar to:
+
+student-project
+
+README.md
+
+
+---
+
+STEP 7 — Create index.html
+
+Inside your repository, click:
+
+Add file
+
+Then:
+
+Create new file
+
+
+---
+
+STEP 8 — File name
+
+At the filename box type:
+
+index.html
+
+
+---
+
+STEP 9 — Put HTML code
+
+Paste:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portfolio</title>
+</head>
+
+<body>
+
+    <h1>My Student Portfolio</h1>
+
+    <h2>About Me</h2>
+    <p>Hello! I am a Computer Science student.</p>
+
+    <h2>Education</h2>
+    <p>B.Sc. Computer Science</p>
+
+    <h2>Skills</h2>
+    <p>HTML, CSS, PHP, Python</p>
+
+    <h2>Contact</h2>
+    <p>Email: student@example.com</p>
+
+</body>
+</html>
+
+
+---
+
+STEP 10 — Commit
+
+Scroll down.
+
+You'll find:
+
+Commit changes
+
+For commit message enter:
+
+Create student portfolio page
+
+Choose:
+
+Commit directly to the main branch
+
+Click:
+
+Commit changes
+
+
+---
+
+STEP 11 — Verify
+
+Go back to the repository's main page.
+
+You should see:
+
+student-project
+│
+├── README.md
+└── index.html
+
+Exercise 1 is COMPLETE ✅
+
+
+---
+
+🔥 EXERCISE 2
+
+Add style.css and an image
+
+Requirement:
+
+> Create a simple HTML project containing index.html, style.css, and an image. Upload all files to GitHub and commit the changes. Verify the files.
+
+
+
+We already have:
+
+index.html
+
+Now we add:
+
+style.css
+student.jpg
+
+
+---
+
+STEP 1 — Create CSS
+
+Go:
+
+Add file → Create new file
+
+Filename:
+
+style.css
+
+Paste:
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: lightblue;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+---
+
+STEP 2 — Commit CSS
+
+At bottom:
+
+Commit message:
+
+Add portfolio stylesheet
+
+Click:
+
+Commit changes
+
+
+---
+
+STEP 3 — Prepare an image
+
+On your computer, have any image available.
+
+For example:
+
+student.jpg
+
+It doesn't have to be your actual photo.
+
+You can use any appropriate image for the practical.
+
+
+---
+
+STEP 4 — Upload image
+
+Back in GitHub:
+
+Add file → Upload files
+
+Click:
+
+Choose your files
+
+Select:
+
+student.jpg
+
+You can also drag the image into the GitHub browser window.
+
+
+---
+
+STEP 5 — Commit image
+
+At the bottom:
+
+Upload student image
+
+Click:
+
+Commit changes
+
+
+---
+
+STEP 6 — Verify
+
+Your repository should now look like:
+
+student-project
+│
+├── README.md
+├── index.html
+├── style.css
+└── student.jpg
+
+🎯 Exercise 2 COMPLETE.
+
+
+---
+
+🔥 EXERCISE 3
+
+Clone repository using GitHub Desktop
+
+This is where we move from:
+
+GitHub website
+
+to:
+
+Your computer
+
+A clone creates a local copy of the repository on your computer. 
+
+
+---
+
+STEP 1 — Open GitHub Desktop
+
+Open:
+
+GitHub Desktop
+
+
+---
+
+STEP 2 — Clone repository
+
+At the top:
+
+File
+
+Choose:
+
+Clone Repository
+
+You'll get a window.
+
+Choose:
+
+GitHub.com
+
+
+---
+
+STEP 3 — Select repository
+
+Find:
+
+student-project
+
+Click it.
+
+
+---
+
+STEP 4 — Choose local location
+
+You'll see:
+
+Local Path
+
+This means:
+
+> Where should GitHub Desktop store the project on your computer?
+
+
+
+You can choose:
+
+Documents/GitHub
+
+For example:
+
+C:\Users\YourName\Documents\GitHub
+
+Don't worry if your exact path looks different.
+
+
+---
+
+STEP 5 — Clone
+
+Click:
+
+Clone
+
+GitHub Desktop will download the repository.
+
+Now you have:
+
+Your Computer
+      │
+      └── GitHub
+           │
+           └── student-project
+                ├── README.md
+                ├── index.html
+                ├── style.css
+                └── student.jpg
+
+GitHub's current Desktop workflow is File → Clone Repository → choose repository → choose local path → Clone. 
+
+
+---
+
+STEP 6 — Open local folder
+
+In GitHub Desktop, choose:
+
+Repository
+
+Then:
+
+Show in Explorer
+
+A Windows folder opens.
+
+Open:
+
+index.html
+
+
+---
+
+STEP 7 — Modify HTML
+
+Add this before:
+
+</body>
+
+Add:
+
+<h2>Welcome</h2>
+<p>This portfolio was created for my DevOps practical.</p>
+
+Save the file.
+
+
+---
+
+STEP 8 — Return to GitHub Desktop
+
+GitHub Desktop should detect the change.
+
+You'll see:
+
+1 changed file
+
+Click:
+
+Changes
+
+You should see:
+
+index.html
+
+
+---
+
+STEP 9 — Commit
+
+At the bottom-left there will be:
+
+Summary
+
+Enter:
+
+Update student portfolio
+
+Click:
+
+Commit to main
+
+
+---
+
+STEP 10 — Push
+
+After the commit, GitHub Desktop should show:
+
+Push origin
+
+Click it.
+
+Wait for it to finish.
+
+
+---
+
+STEP 11 — Verify GitHub
+
+Go back to Firefox.
+
+Refresh:
+
+student-project
+
+Open:
+
+index.html
+
+You should see your new text.
+
+🎯 Exercise 3 COMPLETE.
+
+
+---
+
+🔥 EXERCISE 4
+
+Change GitHub → Fetch/Pull → Computer
+
+This exercise is the opposite direction.
+
+Previously:
+
+Computer → GitHub
+
+Now:
+
+GitHub → Computer
+
+
+---
+
+STEP 1 — Edit from GitHub.com
+
+Open:
+
+student-project
+
+Click:
+
+index.html
+
+Find:
+
+✏️ Edit
+
+Click it.
+
+
+---
+
+STEP 2 — Add text
+
+Add:
+
+<p>This change was made directly on GitHub.</p>
+
+
+---
+
+STEP 3 — Commit
+
+Scroll down.
+
+Commit message:
+
+Update portfolio from GitHub
+
+Click:
+
+Commit changes
+
+Now GitHub has a change that your computer doesn't have yet.
+
+
+---
+
+STEP 4 — Open GitHub Desktop
+
+Open:
+
+GitHub Desktop
+
+Select:
+
+student-project
+
+You may see:
+
+Fetch origin
+
+Click it.
+
+Fetch means:
+
+> Check GitHub to see whether there are new changes.
+
+
+
+
+---
+
+STEP 5 — Pull
+
+After fetching, you should see:
+
+Pull origin
+
+Click it.
+
+Pull means:
+
+> Bring the remote changes into my computer.
+
+
+
+GitHub Desktop's documented synchronization flow uses Fetch origin followed by Pull origin when remote commits need to be brought locally. 
+
+
+---
+
+STEP 6 — Verify
+
+Open your local:
+
+student-project
+
+Open:
+
+index.html
+
+You should now find:
+
+<p>This change was made directly on GitHub.</p>
+
+🎯 Exercise 4 COMPLETE.
+
+
+---
+
+🔥 EXERCISE 5
+
+Create feature branch and observe differences
+
+Now we're learning branches.
+
+
+---
+
+STEP 1 — Go to GitHub
+
+Open:
+
+student-project
+
+Make sure:
+
+main
+
+is selected.
+
+
+---
+
+STEP 2 — Create branch
+
+Click the branch selector.
+
+It may currently say:
+
+main
+
+Click it.
+
+Type:
+
+feature
+
+GitHub should show something similar to:
+
+Create branch: feature from main
+
+Click it.
+
+Now you are on:
+
+feature
+
+
+---
+
+STEP 3 — Modify index.html
+
+Open:
+
+index.html
+
+Click:
+
+✏️ Edit.
+
+Add:
+
+<h2>My Projects</h2>
+<p>Student Portfolio Website</p>
+
+
+---
+
+STEP 4 — Commit
+
+At the bottom:
+
+Add projects section
+
+Make sure you're committing to:
+
+feature
+
+Click:
+
+Commit changes
+
+
+---
+
+STEP 5 — See the difference
+
+Switch branch:
+
+feature → main
+
+Open index.html.
+
+You won't see:
+
+My Projects
+
+because that change exists only on feature.
+
+
+---
+
+Switch back:
+
+main → feature
+
+Open index.html.
+
+Now you see:
+
+My Projects
+
+🎯 That's branching.
+
+GitHub describes a branch as a separate line of development that lets you work on changes without immediately changing the main branch. 
+
+
+---
+
+🔥 EXERCISE 6
+
+Add Skills section and merge feature into main
+
+Now we'll actually merge.
+
+
+---
+
+STEP 1 — Go to main
+
+Select:
+
+main
+
+Create:
+
+feature
+
+from main.
+
+
+---
+
+STEP 2 — Edit index.html
+
+On feature, edit:
+
+index.html
+
+Add:
+
+<h2>Skills</h2>
+
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>PHP</li>
+    <li>Python</li>
+</ul>
+
+
+---
+
+STEP 3 — Commit
+
+Message:
+
+Add Skills section
+
+Commit to:
+
+feature
+
+
+---
+
+STEP 4 — Create Pull Request
+
+GitHub may show:
+
+Compare & pull request
+
+Click it.
+
+If you don't see it:
+
+Go to:
+
+Pull requests → New pull request
+
+Set:
+
+base: main
+compare: feature
+
+Meaning:
+
+> Take changes from feature and put them into main.
+
+
+
+
+---
+
+STEP 5 — Enter PR details
+
+Title:
+
+Add Skills section
+
+Description:
+
+Added a Skills section to the student portfolio.
+
+Click:
+
+Create pull request
+
+
+---
+
+STEP 6 — Merge
+
+Scroll down.
+
+Click:
+
+Merge pull request
+
+Then:
+
+Confirm merge
+
+Now:
+
+feature
+    │
+    │ merge
+    ↓
+  main
+
+Go to:
+
+main → index.html
+
+The Skills section should now be there.
+
+GitHub's documented basic workflow is branch → make changes → pull request → merge. 
+
+🎯 Exercise 6 COMPLETE.
+
+
+---
+
+🔥 EXERCISE 7
+
+.gitignore
+
+This sounds scary but it's easy.
+
+.gitignore tells Git:
+
+> "Don't track these files/folders."
+
+
+
+For example, we don't want temporary files.
+
+
+---
+
+STEP 1 — Create file
+
+Go:
+
+Add file → Create new file
+
+Filename:
+
+.gitignore
+
+Notice the dot at the beginning.
+
+
+---
+
+STEP 2 — Add rules
+
+Paste:
+
+*.tmp
+*.temp
+temp/
+unnecessary/
+
+Meaning:
+
+Rule	Meaning
+
+*.tmp	Ignore .tmp files
+*.temp	Ignore .temp files
+temp/	Ignore folder called temp
+unnecessary/	Ignore folder called unnecessary
+
+
+
+---
+
+STEP 3 — Commit
+
+Commit message:
+
+Add gitignore configuration
+
+Click:
+
+Commit changes
+
+
+---
+
+STEP 4 — Understand what happens
+
+Suppose your computer has:
+
+test.tmp
+
+Because .gitignore contains:
+
+*.tmp
+
+Git should not treat that file as a normal change to track.
+
+
+---
+
+STEP 5 — Verify
+
+Open GitHub Desktop.
+
+Create locally:
+
+test.tmp
+
+Then check Changes.
+
+The ignored file should not appear as a normal Git change.
+
+🎯 Exercise 7 COMPLETE.
+
+
+---
+
+🔥 EXERCISE 8
+
+Two commits → History → Revert
+
+We will deliberately create an unwanted change.
+
+
+---
+
+STEP 1 — First change
+
+Edit:
+
+index.html
+
+Add:
+
+<p>First change.</p>
+
+Commit:
+
+Add first portfolio update
+
+
+---
+
+STEP 2 — Second change
+
+Edit again.
+
+Add:
+
+<p>Unwanted change.</p>
+
+Commit:
+
+Add unwanted portfolio change
+
+Now you have:
+
+Commit 1
+   ↓
+Commit 2
+
+
+---
+
+STEP 3 — View history
+
+On GitHub repository, click:
+
+Commits
+
+You should see:
+
+Add unwanted portfolio change
+Add first portfolio update
+...
+
+
+---
+
+STEP 4 — Identify unwanted commit
+
+Click:
+
+Add unwanted portfolio change
+
+Look at the changes.
+
+Confirm that this is the commit you want to undo.
+
+
+---
+
+STEP 5 — Revert
+
+Look for:
+
+Revert
+
+Click it if GitHub offers the revert workflow.
+
+The important concept is:
+
+> Revert does NOT erase the history. It creates another commit that reverses the unwanted change.
+
+
+
+So:
+
+Commit 1
+   ↓
+Commit 2  ← unwanted
+   ↓
+Commit 3  ← revert of Commit 2
+
+That's exactly what your practical wants you to demonstrate.
+
+
+---
+
+🔥 EXERCISE 9
+
+Issue + Labels + Milestone + Assignee + Close
+
+Now we're using GitHub's project-management features.
+
+
+---
+
+STEP 1 — Open Issues
+
+Inside:
+
+student-project
+
+Click:
+
+Issues
+
+Then:
+
+New issue
+
+
+---
+
+STEP 2 — Title
+
+Enter:
+
+Fix Homepage Layout
+
+
+---
+
+STEP 3 — Description
+
+Enter:
+
+Improve the homepage layout and make the portfolio sections easier to read.
+
+Click:
+
+Create issue
+
+
+---
+
+STEP 4 — Create labels
+
+Go:
+
+Issues → Labels
+
+Create:
+
+bug
+
+Then:
+
+enhancement
+
+Then:
+
+documentation
+
+
+---
+
+STEP 5 — Add bug label
+
+Open:
+
+Fix Homepage Layout
+
+Find:
+
+Labels
+
+Select:
+
+bug
+
+
+---
+
+STEP 6 — Create milestone
+
+Go:
+
+Issues → Milestones
+
+Click:
+
+New milestone
+
+Title:
+
+Version 1.0
+
+Description:
+
+Complete the first version of the student portfolio.
+
+Create it.
+
+
+---
+
+STEP 7 — Assign milestone
+
+Go back to:
+
+Fix Homepage Layout
+
+Find:
+
+Milestone
+
+Select:
+
+Version 1.0
+
+
+---
+
+STEP 8 — Assign user
+
+Find:
+
+Assignees
+
+Select your GitHub account.
+
+If you have a collaborator available, you can assign them instead.
+
+
+---
+
+STEP 9 — Close issue
+
+Once you've demonstrated the completed task:
+
+Click:
+
+Close issue
+
+Your final issue should show:
+
+Fix Homepage Layout
+
+Label:
+bug
+
+Milestone:
+Version 1.0
+
+Assignee:
+Your GitHub account
+
+Status:
+Closed
+
+🎯 Exercise 9 COMPLETE.
+
+
+---
+
+🔥 EXERCISE 10
+
+Feature → Push → Pull Request → Review → Comment → Approve → Merge
+
+This is probably the most important workflow to understand for your practical.
+
+
+---
+
+The workflow
+
+Memorize:
+
+Create branch
+      ↓
+Make change
+      ↓
+Commit
+      ↓
+Push branch
+      ↓
+Pull Request
+      ↓
+Review
+      ↓
+Comment
+      ↓
+Approve
+      ↓
+Merge
+
+
+---
+
+STEP 1 — Create feature branch
+
+On GitHub:
+
+main
+
+Create:
+
+feature
+
+
+---
+
+STEP 2 — Modify index.html
+
+Add:
+
+<h2>Achievements</h2>
+
+<p>Completed various academic and technical projects.</p>
+
+Commit:
+
+Add achievements section
+
+
+---
+
+STEP 3 — Push branch
+
+If you're doing this through GitHub Desktop, your workflow is:
+
+Commit
+   ↓
+Push origin
+
+GitHub Desktop's interface uses Push origin to send your local commits to GitHub. 
+
+If you're making the change directly on GitHub.com, the branch/commit is already on GitHub, so you don't need a separate command-line push.
+
+
+---
+
+STEP 4 — Pull Request
+
+Go:
+
+Pull requests → New pull request
+
+Select:
+
+base: main
+compare: feature
+
+Click:
+
+Create pull request
+
+
+---
+
+STEP 5 — Review
+
+Open:
+
+Files changed
+
+You'll see exactly what was added.
+
+For example:
+
++ <h2>Achievements</h2>
++ <p>Completed various academic and technical projects.</p>
+
+The + means those lines were added.
+
+
+---
+
+STEP 6 — Add review comment
+
+Find the changed line.
+
+Click the small:
+
++
+
+beside the line.
+
+Enter:
+
+The achievements section has been added correctly.
+
+Submit the comment/review.
+
+
+---
+
+STEP 7 — Approve
+
+Click:
+
+Review changes
+
+Choose:
+
+Approve
+
+Write:
+
+Changes reviewed and approved.
+
+Submit.
+
+⚠️ Important
+
+If you're using only your own GitHub account, GitHub may not allow you to demonstrate a true independent review/approval depending on the repository settings and permissions.
+
+For a genuine "someone else reviewed and approved my PR" demonstration, a second GitHub account/collaborator may be required.
+
+
+---
+
+STEP 8 — Merge
+
+Click:
+
+Merge pull request
+
+Then:
+
+Confirm merge
+
+Now:
+
+feature
+   ↓
+Pull Request
+   ↓
+Review
+   ↓
+Approval
+   ↓
+Merge
+   ↓
+main
+
+🎯 Exercise 10 COMPLETE.
+
+
+---
+
+🔥 EXERCISE 11
+
+Merge Conflict
+
+Now comes the scary-looking one.
+
+It's actually simple once you understand the idea.
+
+We need:
+
+main
+ │
+ ├──── feature-a
+ │
+ └──── feature-b
+
+Both branches must change the same part of the same file differently.
+
+
+---
+
+STEP 1 — Start from main
+
+Go to:
+
+student-project
+
+Select:
+
+main
+
+
+---
+
+STEP 2 — Create feature-a
+
+Create:
+
+feature-a
+
+from main.
+
+
+---
+
+STEP 3 — Change heading
+
+Open:
+
+index.html
+
+Find:
+
+<h1>My Student Portfolio</h1>
+
+Change it to:
+
+<h1>My Computer Science Portfolio</h1>
+
+Commit:
+
+Update portfolio heading
+
+
+---
+
+STEP 4 — IMPORTANT
+
+Switch back to:
+
+main
+
+Do not merge feature-a yet.
+
+
+---
+
+STEP 5 — Create feature-b
+
+From main, create:
+
+feature-b
+
+Now:
+
+main
+ │
+ ├── feature-a
+ │
+ └── feature-b
+
+Both branches started from the same original version.
+
+
+---
+
+STEP 6 — Change the SAME heading differently
+
+On feature-b, open:
+
+index.html
+
+Change:
+
+<h1>My Student Portfolio</h1>
+
+to:
+
+<h1>Welcome to My Portfolio</h1>
+
+Commit:
+
+Change portfolio heading
+
+
+---
+
+NOW LOOK AT THE SITUATION
+
+feature-a says:
+
+<h1>My Computer Science Portfolio</h1>
+
+feature-b says:
+
+<h1>Welcome to My Portfolio</h1>
+
+Both changed the same original line.
+
+Git can't automatically decide which one you want.
+
+
+---
+
+STEP 7 — Merge feature-a into main
+
+Switch to:
+
+main
+
+Create a Pull Request:
+
+feature-a → main
+
+Merge it.
+
+Now main contains:
+
+<h1>My Computer Science Portfolio</h1>
+
+
+---
+
+STEP 8 — Merge feature-b into main
+
+Now create another Pull Request:
+
+feature-b → main
+
+GitHub should detect a conflict.
+
+You'll see something similar to:
+
+> This branch has conflicts that must be resolved.
+
+
+
+This is exactly what we wanted.
+
+GitHub prevents a Pull Request from being merged until conflicts are resolved. 
+
+
+---
+
+STEP 9 — Click Resolve conflicts
+
+Click:
+
+Resolve conflicts
+
+You'll see something similar to:
+
+<<<<<<< main
+<h1>My Computer Science Portfolio</h1>
+=======
+<h1>Welcome to My Portfolio</h1>
+>>>>>>> feature-b
+
+Don't panic 😂.
+
+
+---
+
+What does this mean?
+
+This:
+
+<<<<<<< main
+
+means:
+
+> This is the version currently in main.
+
+
+
+This:
+
+=======
+
+means:
+
+> The two versions are separated here.
+
+
+
+This:
+
+>>>>>>> feature-b
+
+means:
+
+> This is the version coming from feature-b.
+
+
+
+
+---
+
+STEP 10 — Decide the final version
+
+We can combine both ideas.
+
+Delete the conflict markers and both old versions.
+
+Make the final line:
+
+<h1>Welcome to My Computer Science Portfolio</h1>
+
+So the final file should contain only:
+
+<h1>Welcome to My Computer Science Portfolio</h1>
+
+
+---
+
+STEP 11 — Mark resolved
+
+Click:
+
+Mark as resolved
+
+Then:
+
+Commit merge
+
+
+---
+
+STEP 12 — Verify
+
+Go to:
+
+main
+
+Open:
+
+index.html
+
+You should see:
+
+<h1>Welcome to My Computer Science Portfolio</h1>
+
+🎉
+
+You just completed a merge conflict.
